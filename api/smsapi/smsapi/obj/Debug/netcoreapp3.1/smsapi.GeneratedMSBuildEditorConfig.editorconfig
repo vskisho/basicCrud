@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = smsapi
+build_property.ProjectDir = C:\Users\User\dotnetreact\basic_crud\api\smsapi\smsapi\
