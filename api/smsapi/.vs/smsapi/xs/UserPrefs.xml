@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{7CF329C0-AD42-4499-BA90-391DC395EFB9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="smsapi/Controllers/OperationController.cs">
+    <Files>
+      <File FileName="smsapi/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="smsapi/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="smsapi/Controllers/OperationController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="smsapi" expanded="True">
+            <Node name="smsapi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Interfaces" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.smsapi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
