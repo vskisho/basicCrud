@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/nisaisn/.dotnet/store/|arch|/|tfm|",
+      "/Users/nisaisn/.nuget/packages"
+    ]
+  }
+}
