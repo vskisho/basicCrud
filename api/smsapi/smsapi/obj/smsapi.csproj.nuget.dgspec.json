@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\dotnetreact\\basic_crud\\api\\smsapi\\smsapi\\smsapi.csproj": {}
+    "C:\\OTHERS\\VSKISHO\\basic_crud\\api\\smsapi\\smsapi\\smsapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\dotnetreact\\basic_crud\\api\\smsapi\\smsapi\\smsapi.csproj": {
+    "C:\\OTHERS\\VSKISHO\\basic_crud\\api\\smsapi\\smsapi\\smsapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\dotnetreact\\basic_crud\\api\\smsapi\\smsapi\\smsapi.csproj",
+        "projectUniqueName": "C:\\OTHERS\\VSKISHO\\basic_crud\\api\\smsapi\\smsapi\\smsapi.csproj",
         "projectName": "smsapi",
-        "projectPath": "C:\\Users\\User\\dotnetreact\\basic_crud\\api\\smsapi\\smsapi\\smsapi.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\dotnetreact\\basic_crud\\api\\smsapi\\smsapi\\obj\\",
+        "projectPath": "C:\\OTHERS\\VSKISHO\\basic_crud\\api\\smsapi\\smsapi\\smsapi.csproj",
+        "packagesPath": "C:\\Users\\nisaisn\\.nuget\\packages\\",
+        "outputPath": "C:\\OTHERS\\VSKISHO\\basic_crud\\api\\smsapi\\smsapi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nisaisn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/assetsoftbiz/_packaging/Kriyago_Framework/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -53,7 +51,7 @@
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
@@ -66,6 +64,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.23, 3.1.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -74,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\x64\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -26,15 +26,15 @@ namespace smsapi.Implementations
                 string query = @"select * from dbo.student";
                 DataTable dt = new DataTable();
                 string sqlDataSource = _configuration.GetConnectionString("crudConnection");
-                SqlDataReader dr;
+                SqlDataReader dr1;
                 using (SqlConnection con = new SqlConnection(sqlDataSource))
                 {
                     con.Open();
                     using (SqlCommand com = new SqlCommand(query, con))
                     {
-                        dr=com.ExecuteReader();
-                        dt.Load(dr);
-                        dr.Close();
+                        dr1=com.ExecuteReader();
+                        dt.Load(dr1);
+                        dr1.Close();
                         con.Close();
                     }
 
@@ -47,5 +47,26 @@ namespace smsapi.Implementations
             }
             
         }
+
+        //public object Test()
+        //{
+        //    string query = @" SELECT * FROM DBO.STUDENT";
+        //    DataTable dt = new DataTable();
+        //    string sqlDatasource = _configuration.GetConnectionString("crudConnection");
+        //    SqlDataReader reader;
+        //    using (SqlConnection con = new SqlConnection(sqlDatasource))
+        //    {
+        //        con.Open();
+        //        using (SqlCommand command = new SqlCommand(query, con))
+        //        {
+        //            reader=command.ExecuteReader();
+        //            dt.Load(reader);
+        //            reader.Close();
+        //            con.Close();
+        //        }
+        //        return dt;return "this os working";
+        //    }
+            
+        //}
     }
 }

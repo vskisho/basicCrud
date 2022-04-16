@@ -5,6 +5,6 @@ namespace smsapi.Interfaces
     public interface IUserManagementServices
     {
         object GetAllStudents();
-
+        object Test();
     }
 }
