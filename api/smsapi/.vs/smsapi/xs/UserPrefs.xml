@@ -1,20 +1,31 @@
 ﻿<Properties StartupConfiguration="{7CF329C0-AD42-4499-BA90-391DC395EFB9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="smsapi/Controllers/OperationController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="smsapi/appsettings.json">
     <Files>
-      <File FileName="smsapi/WeatherForecast.cs" Line="1" Column="1" />
-      <File FileName="smsapi/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
-      <File FileName="smsapi/Controllers/OperationController.cs" Line="1" Column="1" />
+      <File FileName="smsapi/Startup.cs" Line="60" Column="13" />
+      <File FileName="smsapi/Controllers/OperationController.cs" Line="16" Column="38" />
+      <File FileName="smsapi/Implementations/UserManagementServices.cs" Line="22" Column="23" />
+      <File FileName="smsapi/Interfaces/IUserManagementServices.cs" Line="7" Column="24" />
+      <File FileName="smsapi/Interfaces/IAuthManagementServices.cs" Line="1" Column="1" />
+      <File FileName="smsapi/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="smsapi" expanded="True">
             <Node name="smsapi" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Interfaces" selected="True" />
+              <Node name="Implementations" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -22,7 +33,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.smsapi PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/nisaisn/Documents/ReactProjects/VSKISHO/basic_crud/api/smsapi/smsapi/Controllers/OperationController.cs" relfile="smsapi/Controllers/OperationController.cs" line="22" column="1" />
+      <Breakpoint file="/Users/nisaisn/Documents/ReactProjects/VSKISHO/basic_crud/api/smsapi/smsapi/Controllers/OperationController.cs" relfile="smsapi/Controllers/OperationController.cs" line="23" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
