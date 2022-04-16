@@ -16,7 +16,7 @@ namespace smsapi.Implementations
         public UserManagementServices(IConfiguration configuration, IWebHostEnvironment env)
         {
             _configuration = configuration;
-            _env = env;
+            _env = env;kj-
         }
 
         public object GetAllStudents()
