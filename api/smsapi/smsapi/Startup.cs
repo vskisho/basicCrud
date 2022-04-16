@@ -34,7 +34,7 @@ namespace smsapi
             services.AddControllersWithViews()
                 .AddNewtonsoftJson(options=>options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore)
                 .AddNewtonsoftJson(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
-
+            services.AddSwaggerGen();
             services.AddControllers();
             services.AddTransient<IUserManagementServices, UserManagementServices>();
            // services.AddTransient<IAuthManagementServices, AuthManagementServices>();
@@ -56,11 +56,11 @@ namespace smsapi
             {
                 endpoints.MapControllers();
             });
-            /*app.UseSwagger();
+            app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("../swagger/v1/swagger.json", "SMS API");
-            });*/
+            });
         }
     }
 }
