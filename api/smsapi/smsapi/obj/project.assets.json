@@ -860,25 +860,28 @@
     ]
   },
   "packageFolders": {
-    "/Users/nisaisn/.nuget/packages/": {}
+    "C:\\Users\\nisaisn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nisaisn/Documents/ReactProjects/VSKISHO/basic_crud/api/smsapi/smsapi/smsapi.csproj",
+      "projectUniqueName": "C:\\OTHERS\\VSKISHO\\basic_crud\\api\\smsapi\\smsapi\\smsapi.csproj",
       "projectName": "smsapi",
-      "projectPath": "/Users/nisaisn/Documents/ReactProjects/VSKISHO/basic_crud/api/smsapi/smsapi/smsapi.csproj",
-      "packagesPath": "/Users/nisaisn/.nuget/packages/",
-      "outputPath": "/Users/nisaisn/Documents/ReactProjects/VSKISHO/basic_crud/api/smsapi/smsapi/obj/",
+      "projectPath": "C:\\OTHERS\\VSKISHO\\basic_crud\\api\\smsapi\\smsapi\\smsapi.csproj",
+      "packagesPath": "C:\\Users\\nisaisn\\.nuget\\packages\\",
+      "outputPath": "C:\\OTHERS\\VSKISHO\\basic_crud\\api\\smsapi\\smsapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/nisaisn/.config/NuGet/NuGet.Config"
+        "C:\\Users\\nisaisn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/assetsoftbiz/_packaging/Kriyago_Framework/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -919,6 +922,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.23, 3.1.23]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -927,7 +948,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.104/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\x64\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

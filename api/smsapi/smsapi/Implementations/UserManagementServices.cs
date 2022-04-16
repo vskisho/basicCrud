@@ -23,7 +23,7 @@ namespace smsapi.Implementations
         {
             try
             {
-                string query = @"select * from student";
+                string query = @"select * from [cruddb].[dbo].[student]";
                 DataTable dt = new DataTable();
                 string sqlDataSource = _configuration.GetConnectionString("crudConnection");
                 SqlDataReader reader;
