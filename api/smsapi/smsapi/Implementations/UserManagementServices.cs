@@ -23,18 +23,18 @@ namespace smsapi.Implementations
         {
             try
             {
-                string query = @"select * from student";
+                string query = @"select * from dbo.student";
                 DataTable dt = new DataTable();
                 string sqlDataSource = _configuration.GetConnectionString("crudConnection");
-                SqlDataReader reader;
+                SqlDataReader dr;
                 using (SqlConnection con = new SqlConnection(sqlDataSource))
                 {
                     con.Open();
                     using (SqlCommand com = new SqlCommand(query, con))
                     {
-                        reader=com.ExecuteReader();
-                        dt.Load(reader);
-                        reader.Close();
+                        dr=com.ExecuteReader();
+                        dt.Load(dr);
+                        dr.Close();
                         con.Close();
                     }
 

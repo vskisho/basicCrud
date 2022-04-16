@@ -15,6 +15,12 @@ namespace smsapi.Controllers
     {
         private readonly IUserManagementServices _userManagementServices;
         private readonly IWebHostEnvironment _env;
+
+        public OperationController(IUserManagementServices userManagementServices, IWebHostEnvironment env)
+        {
+            _userManagementServices = userManagementServices;
+            _env = env;
+        }
         // GET: api/values
         [HttpGet("getStudentDetails")]
         public IActionResult GetAllStudents()
