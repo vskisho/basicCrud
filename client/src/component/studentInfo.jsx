@@ -61,7 +61,7 @@ const Studentinfo = () => {
                     <div className="card-header main-search dash-search">
                         <h3>
                             Student Information Details
-                    </h3>
+                        </h3>
                     </div>
                 </div>
                 <div className="row">
@@ -94,15 +94,28 @@ const Studentinfo = () => {
                                                         <td>{studentObjects[key].address}</td>
 
                                                         <td className="case-record">
-                                                            <button type="button" className="btn btn-info"
+                                                            <button type="button" className="btn btn-primary"
                                                                 onClick={() => { setCurrentId(key) }}>Edit</button>
 
                                                         </td>
                                                         <td> <button type="button" className="btn btn-danger"
-                                                            onClick={() => {  }}>Delete</button></td>
+                                                            onClick={() => { }}>Delete</button></td>
                                                     </tr>
                                                 ))
                                             }
+                                                    <tr >
+                                                    <td>studentName</td>
+                                                    <td>faculty</td>
+                                                    <td>course</td>
+                                                    <td>address</td>
+
+                                                    <td className="case-record">
+                                                        <button type="button" className="btn btn-primary"
+                                                            >Edit</button>
+
+                                                    </td>
+                                                    <td> <button type="button" className="btn btn-danger">Delete</button></td>
+                                                </tr>
 
                                         </tbody>
                                     </table>
