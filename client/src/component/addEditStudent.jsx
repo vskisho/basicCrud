@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 const AddEditStudent = (props) => {
     const initialFieldValues = {
-        FullName: '',
-        RollNo: '',
-        Subject: '',
-        Class: ''
+        studentName: '',
+        faculty: '',
+        course: '',
+        address: ''
     }
     var [values, setValues] = useState(initialFieldValues)
 
@@ -45,35 +45,35 @@ const AddEditStudent = (props) => {
                             <div className="row">
                                 <div className="col-12 col-md-6">
                                     <div className="form-group">
-                                        <label className="col-form-label">Full Name<span
+                                        <label className="col-form-label">Student Name<span
                                             className="mandatoryFieldColor">*</span></label>
-                                        <input value={values.FullName}
+                                        <input value={values.studentName}
                                             onChange={handleInputChange} type="text" className="form-control"
                                         />
                                     </div>
                                 </div>
                                 <div className="col-12 col-md-6">
                                     <div className="form-group">
-                                        <label className="col-form-label">Roll No<span
+                                        <label className="col-form-label">Faculty<span
                                             className="mandatoryFieldColor">*</span></label>
-                                        <input value={values.RollNo} onChange={handleInputChange} type="text" className="form-control"
+                                        <input value={values.faculty} onChange={handleInputChange} type="text" className="form-control"
                                         />
                                     </div>
                                 </div>
 
                                 <div className="col-12 col-md-6">
                                     <div className="form-group">
-                                        <label className="col-form-label">Subject<span
+                                        <label className="col-form-label">Course<span
                                             className="mandatoryFieldColor">*</span></label>
-                                        <input value={values.Subject} onChange={handleInputChange} type="text" className="form-control"
+                                        <input value={values.course} onChange={handleInputChange} type="text" className="form-control"
                                         />
                                     </div>
                                 </div>
                                 <div className="col-12 col-md-6">
                                     <div className="form-group">
-                                        <label className="col-form-label">Class<span
+                                        <label className="col-form-label">Address<span
                                             className="mandatoryFieldColor">*</span></label>
-                                        <input value={values.Class} onChange={handleInputChange} type="text" className="form-control"
+                                        <input value={values.address} onChange={handleInputChange} type="text" className="form-control"
                                         />
                                     </div>
                                 </div>

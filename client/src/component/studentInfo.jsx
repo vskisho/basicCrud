@@ -75,10 +75,10 @@ const Studentinfo = () => {
                                     <table className="table table-bordered heading-hvr">
                                         <thead>
                                             <tr>
-                                                <th className="active">Full Name</th>
-                                                <th>Roll No</th>
-                                                <th>Subject</th>
-                                                <th>Class</th>
+                                                <th className="active">Student Name</th>
+                                                <th>Faculty</th>
+                                                <th>Course</th>
+                                                <th>Address</th>
                                                 <th width="60">&nbsp;</th>
                                                 <th width="60">&nbsp;</th>
                                             </tr>
@@ -88,10 +88,10 @@ const Studentinfo = () => {
                                             {
                                                 Object.keys(studentObjects).map((key) => (
                                                     <tr key={key}>
-                                                        <td>{studentObjects[key].FullName}</td>
-                                                        <td>{studentObjects[key].RollNo}</td>
-                                                        <td>{studentObjects[key].Subject}</td>
-                                                        <td>{studentObjects[key].Class}</td>
+                                                        <td>{studentObjects[key].studentName}</td>
+                                                        <td>{studentObjects[key].faculty}</td>
+                                                        <td>{studentObjects[key].course}</td>
+                                                        <td>{studentObjects[key].address}</td>
 
                                                         <td className="case-record">
                                                             <button type="button" className="btn btn-info"
